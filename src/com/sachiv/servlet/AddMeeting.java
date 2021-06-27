@@ -69,7 +69,7 @@ public class AddMeeting extends HttpServlet {
 		}
 		catch(Exception e)
 		{
-			out.println("Error : "+e.getMessage());
+			//out.println("Error : "+e.getMessage());
 			out.println("<hr><br><a href='Sachiv.jsp'>Home</a>");
 		}
 }

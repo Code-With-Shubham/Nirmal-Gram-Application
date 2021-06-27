@@ -55,14 +55,14 @@ public class newreg extends HttpServlet {
 			com.dbconnector.beans.DBConnector dbc= new com.dbconnector.beans.DBConnector();
 		    con=dbc.getDbconnection();
 		    
-		    pst=con.prepareStatement("select * from peoples_info;");
+		    /*pst=con.prepareStatement("select * from peoples_info;");
 			rs=pst.executeQuery();
 			while(rs.next())
 			{
 				apaadhar=rs.getString("aadhar");
 			}
 			if(apaadhar.equals(ano))
-			{
+			{*/
 				pst=con.prepareStatement("insert into registration values(?,?,?,?,default);");
 				pst.setString(1, ano);
 				pst.setString(2, pswd);
@@ -88,11 +88,12 @@ public class newreg extends HttpServlet {
 				{
 					response.sendRedirect("regfailed.html");
 				}
-			}
+			/*}
 			else
 			{
 				out.println("You'r not able to make account...Please Contact to GramPanchayet Office");
 			}
+			*/
 			con.close();
 			
 		}

@@ -23,7 +23,7 @@
 </tr>
 <tr>
 <td>Date</td>
-<td><input type="text" name="dt" class="form-control" placeholder="DD/MM/YYYY"></td>
+<td><input type="text" name="dt" class="form-control" placeholder="DD-MM-YYYY"></td>
 </tr>
 <tr>
 <td>Place</td>

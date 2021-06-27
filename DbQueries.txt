@@ -100,7 +100,7 @@ create table meetings
 (
 meeting_name varchar(40),
 description varchar(100),
-dt varchar(12) primary key,
+dt varchar(20),
 place varchar(40)
 );
 

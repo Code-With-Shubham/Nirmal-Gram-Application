@@ -18,7 +18,7 @@
  	 <br>
  	 <a href="showprofile.jsp">Show Profile</a>||
  	<a href="showpeoples.jsp">Show Peoples</a> ||
- 	<a href="showrequest.jsp">Show Request</a> ||
+ 	<a href="showrequestclerk.jsp">Show Request</a> ||
  	<a href="showbirth.jsp">Show Birth</a> ||
  	<a href="showdeath.jsp">Show Death</a> ||
  	<a href="showmeetings.jsp">Show Meetings Date</a> ||
